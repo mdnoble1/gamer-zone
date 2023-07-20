@@ -233,6 +233,32 @@ body {
 .play-instant-img .instant-img1 {
   margin-left: 150px;
 }
+/* play instant section related styles */
+.play-game-container {
+  display: flex;
+  gap: 100px;
+  margin-left: 250px;
+}
+.play-game-content {
+  width: 350px;
+  height: 270px;
+  text-align: left;
+  margin-top: 240px;
+}
+.play-game-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.play-game-img {
+  text-align: right;
+}
+.game-img2 {
+  position: relative;
+  bottom: 270px;
+}
+.game-img1 {
+  margin-right: 150px;
+}
 /* responsive media queries */
 
 /* for small devices */
