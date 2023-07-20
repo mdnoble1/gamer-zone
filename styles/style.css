@@ -259,6 +259,62 @@ body {
 .game-img1 {
   margin-right: 150px;
 }
+/* career section related styles */
+.career-container {
+  width: 1920px;
+  height: 821px;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  display: flex;
+}
+.career-content {
+  width: 680px;
+  height: 581px;
+  margin-top: 160px;
+  margin-left: 240px;
+}
+.career-content > div li {
+  list-style: none;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.career-list {
+  display: flex;
+  gap: 95px;
+}
+.career-country li {
+  text-align: right;
+}
+.career-title {
+  color: #fff;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.career-description {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.career-info ul {
+  padding: 0;
+}
+.career-btn {
+  width: 275px;
+  height: 65px;
+  background: #fff;
+  border-radius: 48px;
+  border-style: none;
+  color: #ff42a5;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 40px;
+  cursor: pointer;
+}
 /* responsive media queries */
 
 /* for small devices */
