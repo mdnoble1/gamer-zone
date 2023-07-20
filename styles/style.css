@@ -4,7 +4,7 @@ main,
 footer {
   max-width: 1920px;
   height: auto;
-  border: 2px solid red;
+  border: 2px solid transparent;
 }
 body {
   font-family: "Lato", sans-serif;
@@ -427,7 +427,7 @@ footer {
   header,
   main,
   footer {
-    border: 2px solid rgb(2, 255, 2);
+    border: 2px solid transparent;
   }
   .navbar-container,
   .navbar-right > ul,
@@ -624,7 +624,7 @@ footer {
   header,
   main,
   footer {
-    border: 2px solid blue;
+    border: 2px solid transparent;
   }
   .navbar-container,
   .navbar-right > ul,
