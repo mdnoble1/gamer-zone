@@ -617,7 +617,8 @@ footer {
   .online-game-container,
   .play-instant-container,
   .play-game-container,
-  .career-container {
+  .career-container,
+  .footer-container {
     max-width: 768px;
   }
   header,
@@ -646,7 +647,8 @@ footer {
   .online-game-container,
   .play-instant-container,
   .play-game-container,
-  .career-content {
+  .career-content,
+  .footer-heading {
     margin: 0;
     padding: 0;
   }
@@ -746,5 +748,24 @@ footer {
   }
   .button-container button:hover {
     transform: scale(1.2);
+  }
+  .footer-heading {
+    padding-left: 240px;
+  }
+  .footer-info,
+  .footer-icon,
+  .footer-policy {
+    width: 650px;
+  }
+  .footer-info {
+    padding-left: 20px;
+  }
+  .footer-icon {
+    padding-left: 55px;
+    padding-bottom: 24px;
+  }
+  .footer-policy {
+    padding-left: 50px;
+    padding-bottom: 60px;
   }
 }
