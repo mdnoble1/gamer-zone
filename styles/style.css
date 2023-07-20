@@ -354,7 +354,8 @@ button > p:hover {
   .online-game-container,
   .play-instant-container,
   .play-game-container,
-  .career-container {
+  .career-container,
+  .button-section {
     max-width: 425px;
   }
   header,
@@ -386,7 +387,8 @@ button > p:hover {
   .play-instant-img .instant-img1,
   .play-game-container,
   .play-game-content,
-  .career-content {
+  .career-content,
+  .button-container {
     margin: 0;
     padding: 0;
   }
@@ -480,7 +482,27 @@ button > p:hover {
     margin-top: 20px;
     margin-left: 40px;
   }
+  .button-container button {
+    gap: 10px;
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  .button-container button img {
+    width: 35px;
+    height: 35px;
+  }
+  .button-container {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 15px;
+    margin: 20px;
 }
+.button-container button:hover {
+  transform: scale(1.1);
+  }
+}
+
 /* for medium devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
   /* shared start */
