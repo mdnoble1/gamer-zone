@@ -1,6 +1,7 @@
 /* common shared styles  */
 header {
   max-width: 1920px;
+  height: auto;
   border: 2px solid red;
 }
 body {
@@ -62,6 +63,70 @@ body {
   gap: 20px;
   padding-left: 30px;
   cursor: pointer;
+}
+/* banner related styles */
+.banner-container {
+  display: flex;
+}
+.banner-content {
+  width: 901px;
+  height: 575px;
+  background-image: url("/images/Group\ 14.png");
+  background-position: left;
+  padding-top: 300px;
+  padding-left: 240px;
+}
+.banner-title {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+.banner-stats {
+  color: #f948b2;
+  font-size: 6rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+.banner-description {
+  color: #534c64;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.banner-btn1 {
+  width: 156px;
+  height: 65px;
+  border-radius: 48px;
+  border-style: none;
+  background-color: #ff42a5;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 24px;
+  cursor: pointer;
+}
+.banner-btn2 {
+  width: 185px;
+  height: 65px;
+  border-radius: 48px;
+  border-style: none;
+  background-color: #4ec5f7;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.banner-image {
+  margin-top: 190px;
+  margin-right: 240px;
+  margin-left: 22px;
 }
 /* responsive media queries */
 
