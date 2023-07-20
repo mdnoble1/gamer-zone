@@ -1,0 +1,119 @@
+/* common shared styles  */
+header {
+  max-width: 1920px;
+  border: 2px solid red;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+/* navbar related styles */
+.navbar-container {
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 4px 30px 0px #0808080d;
+  padding: 38px 240px;
+}
+.navbar-left > img {
+  width: 86px;
+  height: 40px;
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar-right > ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.navbar-title {
+  color: #0b0223;
+  font-size: 2.8rem;
+  font-weight: 800;
+}
+.gamer-text {
+  color: #ff42a5;
+}
+.navbar-right li {
+  list-style: none;
+}
+.navbar-right li a {
+  text-decoration: none;
+  color: #3c354f;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.navbar-btn {
+  width: 262px;
+  height: 56px;
+  border-radius: 8px;
+  border-style: none;
+  background: rgba(11, 2, 35, 0.1);
+  color: #3c354f;
+  font-size: 1.1rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 30px;
+  cursor: pointer;
+}
+/* responsive media queries */
+
+/* for small devices */
+@media screen and (max-width: 576px) {
+  /* shared  */
+  header {
+    max-width: 425px;
+    border: 2px solid rgb(2, 255, 2);
+  }
+  .navbar-container,
+  .navbar-right > ul {
+    flex-direction: column;
+  }
+  .navbar-container {
+    margin: 0;
+    padding: 0;
+  }
+  .navbar-container {
+    height: auto;
+  }
+  /* shared  */
+  .navbar-container {
+    align-items: center;
+  }
+  .navbar-right {
+    padding-right: 40px;
+  }
+}
+/* for medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  /* shared  */
+  header {
+    max-width: 768px;
+    border: 2px solid blue;
+  }
+  .navbar-container,
+  .navbar-right > ul {
+    flex-direction: column;
+  }
+  .navbar-container {
+    margin: 0;
+    padding: 0;
+  }
+  .navbar-container {
+    height: auto;
+  }
+  /* shared  */
+  .navbar-container {
+    align-items: center;
+  }
+  .navbar-right {
+    padding-right: 40px;
+  }
+}
