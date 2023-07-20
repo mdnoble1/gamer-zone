@@ -1,6 +1,7 @@
 /* common shared styles  */
 header,
-main {
+main,
+footer {
   max-width: 1920px;
   height: auto;
   border: 2px solid red;
@@ -342,6 +343,9 @@ body {
 button > p:hover {
   color: #ff42a5;
 }
+/* footer section related styles */
+
+
 /* responsive media queries */
 
 /* for small devices */
@@ -359,7 +363,8 @@ button > p:hover {
     max-width: 425px;
   }
   header,
-  main {
+  main,
+  footer {
     border: 2px solid rgb(2, 255, 2);
   }
   .navbar-container,
@@ -517,7 +522,8 @@ button > p:hover {
     max-width: 768px;
   }
   header,
-  main {
+  main,
+  footer {
     border: 2px solid blue;
   }
   .navbar-container,
