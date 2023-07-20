@@ -203,6 +203,36 @@ body {
   padding-left: 10px;
   margin-top: 24px;
 }
+/* play instant section related styles */
+.play-instant-container {
+  display: flex;
+  gap: 100px;
+  margin-top: 130px;
+  margin-left: 400px;
+}
+.play-instant-content {
+  width: 350px;
+  height: 270px;
+  text-align: right;
+  margin-top: 180px;
+}
+.play-instant-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.instant-text {
+  color: #f948b2;
+}
+.play-instant-description {
+  margin-top: 24px;
+}
+.play-instant-img .instant-img2 {
+  position: relative;
+  bottom: 270px;
+}
+.play-instant-img .instant-img1 {
+  margin-left: 150px;
+}
 /* responsive media queries */
 
 /* for small devices */
@@ -212,7 +242,8 @@ body {
   main,
   .banner-container,
   .gamer-container,
-  .online-game-container {
+  .online-game-container,
+  .play-instant-container {
     max-width: 425px;
   }
   header,
@@ -221,7 +252,8 @@ body {
   }
   .navbar-container,
   .navbar-right > ul,
-  .gamer-container {
+  .gamer-container,
+  .play-instant-container{
     flex-direction: column;
   }
   .banner-container {
@@ -235,13 +267,17 @@ body {
   .banner-image,
   .gamer-img,
   .gamer-content,
-  .online-game-container {
+  .online-game-container,
+  .play-instant-container,
+  .play-instant-content,
+  .play-instant-img .instant-img1 {
     margin: 0;
     padding: 0;
   }
   .navbar-container,
   .gamer-container,
-  .online-game-container {
+  .online-game-container,
+  .play-instant-container {
     height: auto;
   }
   /* shared end  */
@@ -272,6 +308,14 @@ body {
   }
   .online-game-info {
     text-align: center;
+  }
+  .play-instant-img .instant-img1{
+    width : 300px;
+    margin-left: 50px;
+  }
+  .play-instant-img .instant-img2 {
+    width: 130px;
+    bottom: 100px;
   }
 }
 /* for medium devices */
