@@ -253,7 +253,7 @@ body {
   .navbar-container,
   .navbar-right > ul,
   .gamer-container,
-  .play-instant-container{
+  .play-instant-container {
     flex-direction: column;
   }
   .banner-container {
@@ -280,6 +280,11 @@ body {
   .play-instant-container {
     height: auto;
   }
+  .gamer-content,
+  .gamer-description,
+  .play-instant-content {
+    text-align: center;
+  }
   /* shared end  */
   .navbar-container {
     align-items: center;
@@ -299,23 +304,25 @@ body {
   .gamer-description {
     width: 380px;
   }
-  .gamer-content,
-  .gamer-description {
-    text-align: center;
-  }
   .gamer-description {
     margin-left: 7px;
   }
   .online-game-info {
     text-align: center;
   }
-  .play-instant-img .instant-img1{
-    width : 300px;
+  .play-instant-img .instant-img1 {
+    width: 300px;
     margin-left: 50px;
   }
   .play-instant-img .instant-img2 {
     width: 130px;
     bottom: 100px;
+  }
+  .play-instant-content {
+    margin-left: 25px;
+  }
+  .play-instant-img {
+    margin-left: 10px;
   }
 }
 /* for medium devices */
@@ -325,7 +332,8 @@ body {
   main,
   .banner-container,
   .gamer-container,
-  .online-game-container {
+  .online-game-container,
+  .play-instant-container {
     max-width: 768px;
   }
   header,
@@ -334,7 +342,8 @@ body {
   }
   .navbar-container,
   .navbar-right > ul,
-  .gamer-container {
+  .gamer-container,
+  .play-instant-container {
     flex-direction: column;
   }
   .banner-container {
@@ -347,14 +356,21 @@ body {
   .banner-content,
   .gamer-img,
   .gamer-content,
-  .online-game-container {
+  .online-game-container,
+  .play-instant-container {
     margin: 0;
     padding: 0;
   }
   .navbar-container,
   .gamer-container,
-  .online-game-container {
+  .online-game-container,
+  .play-instant-container {
     height: auto;
+  }
+  .gamer-content,
+  .gamer-description,
+  .play-instant-content {
+    text-align: center;
   }
   /* shared end */
   .navbar-container {
@@ -378,14 +394,24 @@ body {
   .gamer-description {
     width: 620px;
   }
-  .gamer-content,
-  .gamer-description {
-    text-align: center;
-  }
   .gamer-description {
     margin-left: 55px;
   }
   .online-game-info {
     text-align: center;
+  }
+  .play-instant-img .instant-img1 {
+    width: 480px;
+    margin-left: 90px;
+  }
+  .play-instant-img .instant-img2 {
+    width: 220px;
+    bottom: 130px;
+  }
+  .play-instant-content {
+    margin-left: 200px;
+  }
+  .play-instant-img {
+    margin-left: 50px;
   }
 }
