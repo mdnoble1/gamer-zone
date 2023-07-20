@@ -132,12 +132,14 @@ body {
 /* gamer section related styles */
 .gamer-container {
   display: flex;
+  gap: 50px;
 }
 .gamer-img {
-  margin: 55px 50px 55px 240px;
+  margin-top: 50px;
+  margin-left: 190px;
 }
 .gamer-content {
-  margin: 95px 200px 0 0;
+  margin-top: 35px;
   text-align: right;
 }
 .gamer-title {
