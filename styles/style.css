@@ -176,6 +176,33 @@ body {
   font-size: 2rem;
   font-weight: 700;
 }
+/* online game section related styles */
+.online-game-container {
+  margin: 100px 245px;
+  text-align: center;
+}
+.online-game-title {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.funny-text {
+  color: #f948b2;
+}
+.online-game-img {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 48px;
+}
+.online-game-info {
+  color: #534c64;
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-align: left;
+  padding-left: 10px;
+  margin-top: 24px;
+}
 /* responsive media queries */
 
 /* for small devices */
@@ -184,7 +211,8 @@ body {
   header,
   main,
   .banner-container,
-  .gamer-container {
+  .gamer-container,
+  .online-game-container {
     max-width: 425px;
   }
   header,
@@ -199,16 +227,21 @@ body {
   .banner-container {
     flex-direction: column-reverse;
   }
+  .online-game-img {
+    grid-template-columns: 1fr;
+  }
   .navbar-container,
   .banner-content,
   .banner-image,
   .gamer-img,
-  .gamer-content {
+  .gamer-content,
+  .online-game-container {
     margin: 0;
     padding: 0;
   }
   .navbar-container,
-  .gamer-container {
+  .gamer-container,
+  .online-game-container {
     height: auto;
   }
   /* shared end  */
@@ -237,6 +270,9 @@ body {
   .gamer-description {
     margin-left: 7px;
   }
+  .online-game-info {
+    text-align: center;
+  }
 }
 /* for medium devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -244,7 +280,8 @@ body {
   header,
   main,
   .banner-container,
-  .gamer-container {
+  .gamer-container,
+  .online-game-container {
     max-width: 768px;
   }
   header,
@@ -259,15 +296,20 @@ body {
   .banner-container {
     flex-direction: column-reverse;
   }
+  .online-game-img {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .navbar-container,
   .banner-content,
   .gamer-img,
-  .gamer-content {
+  .gamer-content,
+  .online-game-container {
     margin: 0;
     padding: 0;
   }
   .navbar-container,
-  .gamer-container {
+  .gamer-container,
+  .online-game-container {
     height: auto;
   }
   /* shared end */
@@ -298,5 +340,8 @@ body {
   }
   .gamer-description {
     margin-left: 55px;
+  }
+  .online-game-info {
+    text-align: center;
   }
 }
