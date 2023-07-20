@@ -1,5 +1,6 @@
 /* common shared styles  */
-header {
+header,
+main {
   max-width: 1920px;
   height: auto;
   border: 2px solid red;
@@ -128,16 +129,63 @@ body {
   margin-right: 240px;
   margin-left: 22px;
 }
+/* gamer section related styles */
+.gamer-container {
+  display: flex;
+}
+.gamer-img {
+  margin: 55px 50px 55px 240px;
+}
+.gamer-content {
+  margin: 95px 200px 0 0;
+  text-align: right;
+}
+.gamer-title {
+  color: #f948b2;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.gamer-description {
+  width: 520px;
+  text-align: end;
+  margin-bottom: 32px;
+}
+.gamer-btn {
+  width: 208px;
+  height: 65px;
+  border-radius: 48px;
+  border-style: none;
+  background: #ff42a5;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+.gamer-purpose {
+  color: #534c64;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.gamer-ending {
+  color: #534c64;
+  font-size: 2rem;
+  font-weight: 700;
+}
 /* responsive media queries */
 
 /* for small devices */
 @media screen and (max-width: 576px) {
   /* shared start  */
   header,
+  main,
   .banner-container {
     max-width: 425px;
   }
-  header {
+  header,
+  main {
     border: 2px solid rgb(2, 255, 2);
   }
   .navbar-container,
@@ -176,10 +224,12 @@ body {
 @media screen and (min-width: 576px) and (max-width: 992px) {
   /* shared start */
   header,
+  main,
   .banner-container {
     max-width: 768px;
   }
-  header {
+  header,
+  main {
     border: 2px solid blue;
   }
   .navbar-container,
